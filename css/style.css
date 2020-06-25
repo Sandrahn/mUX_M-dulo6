@@ -52,4 +52,36 @@
 
 }
 
+.h1_animate {
+  animation-duration: 3s;
+  animation-name: slidein_left;
+}
 
+@keyframes slidein_left {
+  from {
+    margin-left: 100%;
+    width: 300%
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+.p_animate {
+  animation-duration: 3s;
+  animation-name: slidein_right;
+}
+
+@keyframes slidein_right {
+  from {
+    margin-left: -300%;
+    width: 50%
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
